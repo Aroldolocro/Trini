@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -12,22 +13,108 @@
     <section class="E1">
         <div class="E2">
             <div class="E3">
-                <button class="btn" onclick="oral1()">ORAL 1</button>
-                <button class="btn" onclick="oral2()">ORAL 2</button>
-                <button class="btn" onclick="oral3()">ORAL 3</button>
-                <button class="btn" onclick="oral4()">ORAL 4</button>
-                <button class="btn" onclick="oral5()">ORAL 5</button>
-                <button class="btn" onclick="oral6()">ORAL 6</button>
-                <button class="btn" onclick="oral7()">ORAL 7</button>
-                <button class="btn" onclick="oral8()">ORAL 8</button>
-                <button class="btn" onclick="oral9()">ORAL 9</button>
-                <button class="btn" onclick="oral10()">ORAL 10</button>
+
+                <div class="swiper">
+
+                <div class="swiper-wrapper">
+      
+                    <!-- Slides -->
+                    
+                    <div class="swiper-slide">
+
+                    <div class="BTN1">
+                        <button class="btn" onclick="oral1()">ORAL<br> 1</button>
+                        <button class="btn" onclick="oral2()">ORAL<br> 2</button>
+                        <button class="btn" onclick="oral3()">ORAL<br> 3</button>
+                        <button class="btn" onclick="oral4()">ORAL<br> 4</button>
+                        <button class="btn" onclick="oral5()">ORAL<br> 5</button>
+                        <button class="btn" onclick="oral6()">ORAL<br> 6</button>
+                        <button class="btn" onclick="oral7()">ORAL<br> 7</button>
+                        <button class="btn" onclick="oral8()">ORAL<br> 8</button>
+                        <button class="btn" onclick="oral9()">ORAL<br> 9</button>
+                        <button class="btn" onclick="oral10()">ORAL<br> 10</button>
+                        <button class="btn" onclick="oral11()">ORAL<br> 11</button>
+                        <button class="btn" onclick="oral12()">ORAL<br> 12</button>
+                        <button class="btn" onclick="oral13()">ORAL<br> 13</button>
+                        <button class="btn" onclick="oral14()">ORAL<br> 14</button>
+                        <button class="btn" onclick="oral15()">ORAL<br> 15</button>
+                        <button class="btn" onclick="oral16()">ORAL<br> 16</button>
+                    </div>
+
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="BTN1">
+                            <button class="btn" onclick="oral17()">ORAL<br> 17</button>
+                            <button class="btn" onclick="oral18()">ORAL<br> 18</button>
+                            <button class="btn" onclick="oral19()">ORAL<br> 19</button>
+                            <button class="btn" onclick="oral20()">ORAL<br> 20</button>
+                            <button class="btn" onclick="oral21()">ORAL<br> 21</button>
+                            <button class="btn" onclick="oral22()">ORAL<br> 22</button>
+                            <button class="btn" onclick="oral23()">ORAL<br> 23</button>
+                            <button class="btn" onclick="oral24()">ORAL<br> 24</button>
+                            <button class="btn" onclick="oral25()">ORAL<br> 25</button>
+                            <button class="btn" onclick="oral26()">ORAL<br> 26</button>
+                            <button class="btn" onclick="oral27()">ORAL<br> 27</button>
+                            <button class="btn" onclick="oral28()">ORAL<br> 28</button>
+                            <button class="btn" onclick="oral29()">ORAL<br> 29</button>
+                            <button class="btn" onclick="oral30()">ORAL<br> 30</button>
+                            <button class="btn" onclick="oral31()">ORAL<br> 31</button>
+                            <button class="btn" onclick="oral32()">ORAL<br> 32</button>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="BTN1">
+                            <button class="btn" onclick="oral33()">ORAL<br> 33</button>
+                            <button class="btn" onclick="oral34()">ORAL<br> 34</button>
+                            <button class="btn" onclick="oral35()">ORAL<br> 35</button>
+                            <button class="btn" onclick="oral36()">ORAL<br> 36</button>
+                            <button class="btn" onclick="oral37()">ORAL<br> 37</button>
+                            <button class="btn" onclick="oral38()">ORAL<br> 38</button>
+                            <button class="btn" onclick="oral39()">ORAL<br> 39</button>
+                            <button class="btn" onclick="oral40()">ORAL<br> 40</button>
+                            <button class="btn" onclick="oral41()">ORAL<br> 41</button>
+                            <button class="btn" onclick="oral42()">ORAL<br> 42</button>
+                            <button class="btn" onclick="oral43()">ORAL<br> 43</button>
+                            <button class="btn" onclick="oral44()">ORAL<br> 44</button>
+                            <button class="btn" onclick="oral45()">ORAL<br> 45</button>
+                            <button class="btn" onclick="oral46()">ORAL<br> 46</button>
+                            <button class="btn" onclick="oral47()">ORAL<br> 47</button>
+                            <button class="btn" onclick="oral48()">ORAL<br> 48</button>
+                        </div>
+
+                    </div>
+
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+  
+  
             </div>
+
+        </div>
+
             <div class="E4" id="shower"></div>
         </div>
     </section>
-    
 
-<script src="script.js"></script>   
+    <script src="script.js"></script>   
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: false,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+});
+    </script>
 </body>
 </html>
